@@ -1,0 +1,4 @@
+block('header-note') (
+    elem('title-note').tag()('h4'),
+    js()(true)
+)

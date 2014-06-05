@@ -1,0 +1,12 @@
+.new-note-form {
+    width: 330px;
+    border: 1px solid #A5A5A5;
+    background-color: #F9F9F9;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin: -150px 0 0 -165px;
+    z-index: 6;
+    text-align: center;
+    box-shadow: 5px 5px 5px #ccc, -5px -5px 10px #ccc;
+}

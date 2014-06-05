@@ -1,0 +1,12 @@
+.header {
+    background-color: #F9F9F9;
+    height: 71px;
+    box-shadow: 0 1px 5px #bababa;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    line-height: 71px;
+    z-index: 1;
+    overflow: hidden;
+}

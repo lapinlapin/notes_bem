@@ -1,0 +1,3 @@
+block('new-note-form') (
+    js()(true)
+)

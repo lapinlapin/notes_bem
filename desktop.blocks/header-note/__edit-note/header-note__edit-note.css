@@ -1,0 +1,11 @@
+.header-note__edit-note {
+    position: absolute;
+    right: 18px;
+    top: -3px;
+    opacity: .6;
+}
+
+.header-note__edit-note:hover {
+    cursor: pointer;
+    opacity: 1;
+}

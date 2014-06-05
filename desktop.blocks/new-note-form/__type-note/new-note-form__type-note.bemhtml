@@ -1,0 +1,4 @@
+block('new-note-form').elem('type-note') (
+    tag()('input'),
+    attrs()({ disabled: 'disabled', placeholder: 'Выберите страницу для заметки' })
+)

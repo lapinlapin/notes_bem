@@ -1,0 +1,5 @@
+.page {
+    background-image: url(bg.png);
+    font-family: Arial, Tahoma, Verdana;
+    min-width: 640px;
+}

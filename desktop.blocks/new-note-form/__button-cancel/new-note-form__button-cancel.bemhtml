@@ -1,0 +1,4 @@
+block('new-note-form').elem('button-cancel') (
+    tag()('a'),
+    attrs()({ href: '#' })
+)

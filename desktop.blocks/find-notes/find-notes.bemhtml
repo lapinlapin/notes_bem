@@ -1,0 +1,5 @@
+block('find-notes') (
+    tag()('input'),
+    attrs()({ value: '', placeholder: 'Поиск записи' }),
+    js()(true)
+)

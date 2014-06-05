@@ -1,0 +1,12 @@
+block('menu-tools') (
+    js()(true),
+    content()(function(){
+        return this.ctx.controls
+            .map(function(elem){
+                return {
+                    elem: 'item',
+                    action: elem
+                }
+        });
+    })
+)

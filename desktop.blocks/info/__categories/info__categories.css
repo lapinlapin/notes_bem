@@ -1,0 +1,21 @@
+.info__categories {
+    height: 35px;
+    margin: 1px 0;
+    padding: 0 10px;
+    width: 100%;
+    background-color: #F9F9F9;
+    border-bottom: 2px solid #F9F9F9;
+    color: #6E6E6E;
+    font-size: 14px;
+    line-height: 35px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-transform: uppercase;
+}
+
+.info__categories:hover {
+    cursor: pointer;
+    background-color: #EEE;
+    border-bottom: 2px solid #6E6E6E;
+    text-align: right;
+}

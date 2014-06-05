@@ -1,0 +1,4 @@
+block('new-note-form').elem('button-add') (
+    tag()('a'),
+    attrs()({ href: '#' })
+)

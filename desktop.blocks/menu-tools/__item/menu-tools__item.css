@@ -1,0 +1,40 @@
+.menu-tools__item {
+    display: inline-block;
+    height: 48px;
+    width: 48px;
+    margin: 0 6px;
+    background: url(sprite2.png) no-repeat;
+    opacity: .6;
+    border: 1px solid #F6F6F6;
+}
+
+.menu-tools__item:hover {
+    opacity: 1;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    background-color: #ECECEC;
+}
+
+.menu-tools__item:active {
+    background-color: #DADADA;
+}
+
+.menu-tools__item:focus {
+    background-color: #ECECEC;
+}
+
+.menu-tools__item_action_add {
+    background-position: -294px 0;
+}
+
+.menu-tools__item_action_edit {
+    background-position: -98px 0;
+}
+
+.menu-tools__item_action_settings{
+   background-position: -392px 0;
+ }
+ 
+ .menu-tools__item_action_remove {
+    background-position: -784px 0;
+}

@@ -1,0 +1,12 @@
+.field-data__input-data {
+    width: 80%;
+    border: 1px solid #ccc;
+    outline: none;
+    height: 25px;
+    color: #979797;
+    font-size: 12px;
+    margin: 5px 0;
+    border-radius: 2px;
+    text-align: center;
+    background-color: #FFF;
+}

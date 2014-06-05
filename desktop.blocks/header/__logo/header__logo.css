@@ -1,0 +1,7 @@
+.header__logo {
+    float: left;
+    cursor: pointer;  
+    margin: 3px 5px;
+    font-size: 40px;
+    color: #6E6E6E;
+}

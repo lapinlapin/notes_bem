@@ -1,0 +1,4 @@
+block('new-note-form').elem('name-note') (
+    tag()('input'),
+    attrs()({placeholder: 'Название заметки' })
+)

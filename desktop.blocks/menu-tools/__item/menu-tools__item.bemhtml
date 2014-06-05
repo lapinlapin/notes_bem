@@ -1,0 +1,9 @@
+block('menu-tools').elem('item') (
+    tag()('a'),
+    attrs()({ href: '#' }),
+    mix()(function() {
+        return [{   
+            mods: {action: this.ctx.action}
+        }]
+    })
+)

@@ -1,0 +1,27 @@
+.field-data__button-cancel {
+    margin: 5px 5px;
+    width: 60px;
+    padding: 0 15px;
+    display: inline-block;
+    height: 25px;
+    line-height: 25px;
+    border: 1px solid black;
+    text-decoration: none;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    background-color: #F9F9F9;
+    font-size: 12px;
+    color: #6E6E6E;
+}
+
+.field-data__button-cancel:hover {
+    background-color: #ECECEC;
+}
+
+.field-data__button-cancel:active {
+    background-color: #DADADA;
+}
+
+.field-data__button-cancel:focus {
+    background-color: #ECECEC;
+}

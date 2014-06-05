@@ -1,0 +1,5 @@
+block('header-note').elem('tools-note') (
+    tag()('img'),
+    attrs()({ src: '../../desktop.blocks/header-note/remove.png', alt: 'tool' }),
+    js()(true)
+)

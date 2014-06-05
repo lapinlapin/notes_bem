@@ -1,0 +1,4 @@
+block('field-data').elem('input-data') (
+    tag()('input'),
+    attrs()({ placeholder: 'Новая страница' })
+)

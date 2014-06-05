@@ -1,0 +1,526 @@
+/* ..\..\desktop.blocks\page\page.css begin */
+.page {
+ background-image: url("../../desktop.blocks/page/bg.png");
+ font-family: Arial, Tahoma, Verdana;
+ min-width: 640px;
+}
+
+/* ..\..\desktop.blocks\page\page.css end */
+/* ..\..\desktop.blocks\main\main.css begin */
+.main {
+ position: relative;
+}
+
+/* ..\..\desktop.blocks\main\main.css end */
+/* ..\..\desktop.blocks\new-note-page\new-note-page.css begin */
+.new-note-page {
+ width: 280px;
+ border: 1px solid #A5A5A5;
+ height: 100px;
+ background-color: #F9F9F9;
+ position: fixed;
+ top: 40%;
+ left: 50%;
+ margin: -50px 0 0 -125px;
+ z-index: 5;
+ box-shadow: 5px 5px 5px #ccc, -5px -5px 10px #ccc;
+}
+
+/* ..\..\desktop.blocks\new-note-page\new-note-page.css end */
+/* ..\..\desktop.blocks\new-note-page\__title-list\new-note-page__title-list.css begin */
+.new-note-page__title-list {
+ color: #6E6E6E;
+ font-weight: bold;
+ margin: 3px 5px;
+ text-align: center;
+ font-size: 14px;
+}
+
+/* ..\..\desktop.blocks\new-note-page\__title-list\new-note-page__title-list.css end */
+/* ..\..\desktop.blocks\field-data\field-data.css begin */
+.field-data {
+ text-align: center;
+}
+
+/* ..\..\desktop.blocks\field-data\field-data.css end */
+/* ..\..\desktop.blocks\field-data\__input-data\field-data__input-data.css begin */
+.field-data__input-data {
+ width: 80%;
+ border: 1px solid #ccc;
+ outline: none;
+ height: 25px;
+ color: #979797;
+ font-size: 12px;
+ margin: 5px 0;
+ border-radius: 2px;
+ text-align: center;
+ background-color: #FFF;
+}
+
+/* ..\..\desktop.blocks\field-data\__input-data\field-data__input-data.css end */
+/* ..\..\desktop.blocks\field-data\__button-add\field-data__button-add.css begin */
+.field-data__button-add {
+ margin: 5px 5px;
+ width: 60px;
+ padding: 0 15px;
+ display: inline-block;
+ height: 25px;
+ line-height: 25px;
+ border: 1px solid black;
+ text-decoration: none;
+ border-radius: 2px;
+ border: 1px solid #ccc;
+ background-color: #F9F9F9;
+ font-size: 12px;
+ color: #6E6E6E;
+}
+
+.field-data__button-add:hover {
+ background-color: #ECECEC;
+}
+
+.field-data__button-add:active {
+ background-color: #DADADA;
+}
+
+.field-data__button-add:focus {
+ background-color: #ECECEC;
+}
+
+/* ..\..\desktop.blocks\field-data\__button-add\field-data__button-add.css end */
+/* ..\..\desktop.blocks\field-data\__button-cancel\field-data__button-cancel.css begin */
+.field-data__button-cancel {
+ margin: 5px 5px;
+ width: 60px;
+ padding: 0 15px;
+ display: inline-block;
+ height: 25px;
+ line-height: 25px;
+ border: 1px solid black;
+ text-decoration: none;
+ border-radius: 2px;
+ border: 1px solid #ccc;
+ background-color: #F9F9F9;
+ font-size: 12px;
+ color: #6E6E6E;
+}
+
+.field-data__button-cancel:hover {
+ background-color: #ECECEC;
+}
+
+.field-data__button-cancel:active {
+ background-color: #DADADA;
+}
+
+.field-data__button-cancel:focus {
+ background-color: #ECECEC;
+}
+
+/* ..\..\desktop.blocks\field-data\__button-cancel\field-data__button-cancel.css end */
+/* ..\..\desktop.blocks\new-note-form\new-note-form.css begin */
+.new-note-form {
+ width: 330px;
+ border: 1px solid #A5A5A5;
+ background-color: #F9F9F9;
+ position: fixed;
+ top: 50%;
+ left: 50%;
+ margin: -150px 0 0 -165px;
+ z-index: 6;
+ text-align: center;
+ box-shadow: 5px 5px 5px #ccc, -5px -5px 10px #ccc;
+}
+
+/* ..\..\desktop.blocks\new-note-form\new-note-form.css end */
+/* ..\..\desktop.blocks\new-note-form\__button-add\new-note-form__button-add.css begin */
+.new-note-form__button-add {
+ margin: 5px 5px;
+ width: 60px;
+ padding: 0 15px;
+ display: inline-block;
+ height: 25px;
+ line-height: 25px;
+ border: 1px solid black;
+ text-decoration: none;
+ border-radius: 2px;
+ border: 1px solid #ccc;
+ background-color: #F9F9F9;
+ font-size: 12px;
+ color: #6E6E6E;
+}
+
+.new-note-form__button-add:hover {
+ background-color: #ECECEC;
+}
+
+.new-note-form__button-add:active {
+ background-color: #DADADA;
+}
+
+.new-note-form__button-add:focus {
+ background-color: #ECECEC;
+}
+
+/* ..\..\desktop.blocks\new-note-form\__button-add\new-note-form__button-add.css end */
+/* ..\..\desktop.blocks\new-note-form\__button-save\new-note-form__button-save.css begin */
+.new-note-form__button-save {
+ margin: 5px 5px;
+ width: 60px;
+ padding: 0 15px;
+ display: inline-block;
+ height: 25px;
+ line-height: 25px;
+ border: 1px solid black;
+ text-decoration: none;
+ border-radius: 2px;
+ border: 1px solid #ccc;
+ background-color: #F9F9F9;
+ font-size: 12px;
+ color: #6E6E6E;
+}
+
+.new-note-form__button-save:hover {
+ background-color: #ECECEC;
+}
+
+.new-note-form__button-save:active {
+ background-color: #DADADA;
+}
+
+.new-note-form__button-save:focus {
+ background-color: #ECECEC;
+}
+
+/* ..\..\desktop.blocks\new-note-form\__button-save\new-note-form__button-save.css end */
+/* ..\..\desktop.blocks\new-note-form\__button-cancel\new-note-form__button-cancel.css begin */
+.new-note-form__button-cancel {
+ margin: 5px 5px;
+ width: 60px;
+ padding: 0 15px;
+ display: inline-block;
+ height: 25px;
+ line-height: 25px;
+ border: 1px solid black;
+ text-decoration: none;
+ border-radius: 2px;
+ border: 1px solid #ccc;
+ background-color: #F9F9F9;
+ font-size: 12px;
+ color: #6E6E6E;
+}
+
+.new-note-form__button-cancel:hover {
+ background-color: #ECECEC;
+}
+
+.new-note-form__button-cancel:active {
+ background-color: #DADADA;
+}
+
+.new-note-form__button-cancel:focus {
+ background-color: #ECECEC;
+}
+
+/* ..\..\desktop.blocks\new-note-form\__button-cancel\new-note-form__button-cancel.css end */
+/* ..\..\desktop.blocks\new-note-form\__title-note\new-note-form__title-note.css begin */
+.new-note-form__title-note {
+ color: #6E6E6E;
+ font-weight: bold;
+ margin: 3px 5px;
+ text-align: center;
+ font-size: 14px;
+}
+
+/* ..\..\desktop.blocks\new-note-form\__title-note\new-note-form__title-note.css end */
+/* ..\..\desktop.blocks\new-note-form\__text-note\new-note-form__text-note.css begin */
+.new-note-form__text-note {
+ width: 80%;
+ border: 1px solid #ccc;
+ outline: none;
+ height: 150px;
+ color: #979797;
+ font-size: 12px;
+ margin: 5px 0;
+ border-radius: 2px;
+ text-align: center;
+ background-color: #FFF;
+ resize: none;
+ padding: 2px 5px;
+ -moz-box-sizing: border-box;
+ box-sizing: border-box;
+ font-family: Arial, Tahoma, Verdana;
+}
+
+/* ..\..\desktop.blocks\new-note-form\__text-note\new-note-form__text-note.css end */
+/* ..\..\desktop.blocks\new-note-form\__type-note\new-note-form__type-note.css begin */
+.new-note-form__type-note {
+ width: 80%;
+ border: 1px solid #ccc;
+ outline: none;
+ height: 25px;
+ color: #7B99B9;
+ font-size: 12px;
+ margin: 5px 0;
+ border-radius: 2px;
+ text-align: center;
+ background-color: #ECECEC;
+}
+
+/* ..\..\desktop.blocks\new-note-form\__type-note\new-note-form__type-note.css end */
+/* ..\..\desktop.blocks\new-note-form\__name-note\new-note-form__name-note.css begin */
+.new-note-form__name-note {
+ width: 80%;
+ border: 1px solid #ccc;
+ outline: none;
+ height: 25px;
+ color: #979797;
+ font-size: 12px;
+ margin: 5px 0;
+ border-radius: 2px;
+ text-align: center;
+ background-color: #FFF;
+}
+
+/* ..\..\desktop.blocks\new-note-form\__name-note\new-note-form__name-note.css end */
+/* ..\..\desktop.blocks\some-note\some-note.css begin */
+.some-note {
+ width: 97%;
+ border: 1px solid #ccc;
+ margin: 10px;
+ background-color: #F5F5F5;
+ background-image: url("../../desktop.blocks/some-note/line.png");
+ font-size: 12px;
+ font-weight: bold;
+ line-height: 1.5em;
+ box-shadow: 2px 0 5px #ccc, -2px 0 5px #ccc;
+}
+
+/* ..\..\desktop.blocks\some-note\some-note.css end */
+/* ..\..\desktop.blocks\some-note\__text-note\some-note__text-note.css begin */
+.some-note__text-note {
+ margin: 5px;
+ text-align: left;
+ word-wrap: break-word;
+}
+
+/* ..\..\desktop.blocks\some-note\__text-note\some-note__text-note.css end */
+/* ..\..\desktop.blocks\some-note\_minimize\some-note_minimize_on.css begin */
+.some-note_minimize_on {
+ width: 230px;
+ display: inline-block;
+ border: 1px solid #ccc;
+ margin: 10px;
+ background-color: #F5F5F5;
+ background-image: url("../../desktop.blocks/some-note/_minimize/line.png");
+ font-size: 12px;
+ font-weight: bold;
+ line-height: 1.5em;
+ box-shadow: 2px 0 5px #ccc, -2px 0 5px #ccc;
+}
+
+/* ..\..\desktop.blocks\some-note\_minimize\some-note_minimize_on.css end */
+/* ..\..\desktop.blocks\header-note\header-note.css begin */
+.header-note {
+ background-color: #93E79E;
+ position: relative;
+ height: 30px;
+ cursor: pointer;
+}
+
+/* ..\..\desktop.blocks\header-note\header-note.css end */
+/* ..\..\desktop.blocks\header-note\__title-note\header-note__title-note.css begin */
+.header-note__title-note {
+ height: 30px;
+ margin: 0;
+ line-height: 30px;
+ font-size: 14px;
+ padding: 0 0 0 5px;
+ display: inline-block;
+ text-overflow: ellipsis;
+ overflow: hidden;
+ width: 89%;
+}
+
+/* ..\..\desktop.blocks\header-note\__title-note\header-note__title-note.css end */
+/* ..\..\desktop.blocks\header-note\__tools-note\header-note__tools-note.css begin */
+.header-note__tools-note {
+ position: absolute;
+ right: -2px;
+ top: -3px;
+ opacity: 0.6;
+}
+
+.header-note__tools-note:hover {
+ cursor: pointer;
+ opacity: 1;
+}
+
+/* ..\..\desktop.blocks\header-note\__tools-note\header-note__tools-note.css end */
+/* ..\..\desktop.blocks\header-note\__edit-note\header-note__edit-note.css begin */
+.header-note__edit-note {
+ position: absolute;
+ right: 18px;
+ top: -3px;
+ opacity: 0.6;
+}
+
+.header-note__edit-note:hover {
+ cursor: pointer;
+ opacity: 1;
+}
+
+/* ..\..\desktop.blocks\header-note\__edit-note\header-note__edit-note.css end */
+/* ..\..\desktop.blocks\header\header.css begin */
+.header {
+ background-color: #F9F9F9;
+ height: 71px;
+ box-shadow: 0 1px 5px #bababa;
+ position: fixed;
+ left: 0;
+ top: 0;
+ width: 100%;
+ line-height: 71px;
+ z-index: 1;
+ overflow: hidden;
+}
+
+/* ..\..\desktop.blocks\header\header.css end */
+/* ..\..\desktop.blocks\header\__logo\header__logo.css begin */
+.header__logo {
+ float: left;
+ cursor: pointer;
+ margin: 3px 5px;
+ font-size: 40px;
+ color: #6E6E6E;
+}
+
+/* ..\..\desktop.blocks\header\__logo\header__logo.css end */
+/* ..\..\desktop.blocks\menu-tools\menu-tools.css begin */
+.menu-tools {
+ position: absolute;
+ right: 0;
+ top: 2px;
+ margin: 10px 10px 0;
+ height: 71px;
+ line-height: 71px;
+}
+
+/* ..\..\desktop.blocks\menu-tools\menu-tools.css end */
+/* ..\..\desktop.blocks\menu-tools\__item\menu-tools__item.css begin */
+.menu-tools__item {
+ display: inline-block;
+ height: 48px;
+ width: 48px;
+ margin: 0 6px;
+ background: url("../../desktop.blocks/menu-tools/__item/sprite2.png") no-repeat;
+ opacity: 0.6;
+ border: 1px solid #F6F6F6;
+}
+
+.menu-tools__item:hover {
+ opacity: 1;
+ cursor: pointer;
+ border: 1px solid #ccc;
+ background-color: #ECECEC;
+}
+
+.menu-tools__item:active {
+ background-color: #DADADA;
+}
+
+.menu-tools__item:focus {
+ background-color: #ECECEC;
+}
+
+.menu-tools__item_action_add {
+ background-position: -294px 0;
+}
+
+.menu-tools__item_action_edit {
+ background-position: -98px 0;
+}
+
+.menu-tools__item_action_settings {
+ background-position: -392px 0;
+}
+
+.menu-tools__item_action_remove {
+ background-position: -784px 0;
+}
+
+/* ..\..\desktop.blocks\menu-tools\__item\menu-tools__item.css end */
+/* ..\..\desktop.blocks\menu-tools\__item\_deleted\menu-tools__item_deleted_on.css begin */
+.menu-tools__item_deleted_on {
+ opacity: 1;
+ border: 1px solid #ccc;
+ background-color: #ECECEC;
+}
+
+/* ..\..\desktop.blocks\menu-tools\__item\_deleted\menu-tools__item_deleted_on.css end */
+/* ..\..\desktop.blocks\find-notes\find-notes.css begin */
+.find-notes {
+ display: block;
+ margin: 73px 0 0 -22px;
+ width: 20%;
+ border: none;
+ outline: none;
+ height: 34px;
+ color: #979797;
+ font-size: 12px;
+ padding: 0 10px 0 22px;
+ border-radius: 2px;
+ background: url("../../desktop.blocks/find-notes/search.png") no-repeat 98% 50%;
+ background-color: #FFF;
+}
+
+/* ..\..\desktop.blocks\find-notes\find-notes.css end */
+/* ..\..\desktop.blocks\info\info.css begin */
+.info {
+ margin: 71px 0 0 0;
+ list-style-type: none;
+ width: 20%;
+ margin: 1px 0 0 -50px;
+ display: inline-block;
+}
+
+/* ..\..\desktop.blocks\info\info.css end */
+/* ..\..\desktop.blocks\info\__categories\info__categories.css begin */
+.info__categories {
+ height: 35px;
+ margin: 1px 0;
+ padding: 0 10px;
+ width: 100%;
+ background-color: #F9F9F9;
+ border-bottom: 2px solid #F9F9F9;
+ color: #6E6E6E;
+ font-size: 14px;
+ line-height: 35px;
+ overflow: hidden;
+ text-overflow: ellipsis;
+ text-transform: uppercase;
+}
+
+.info__categories:hover {
+ cursor: pointer;
+ background-color: #EEE;
+ border-bottom: 2px solid #6E6E6E;
+ text-align: right;
+}
+
+/* ..\..\desktop.blocks\info\__categories\info__categories.css end */
+/* ..\..\desktop.blocks\info\__categories\_visited\info__categories_visited_yes.css begin */
+.info__categories_visited_yes {
+ background-color: #EEE;
+ border-bottom: 2px solid #6E6E6E;
+ text-align: right;
+}
+
+/* ..\..\desktop.blocks\info\__categories\_visited\info__categories_visited_yes.css end */
+/* ..\..\desktop.blocks\notes\notes.css begin */
+.notes {
+ float: right;
+ margin: -25px 0 0 5px;
+ width: 78%;
+ color: #6E6E6E;
+}

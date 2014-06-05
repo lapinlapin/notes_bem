@@ -1,0 +1,11 @@
+.header-note__title-note {
+    height: 30px;
+    margin: 0;
+    line-height: 30px;
+    font-size: 14px;
+    padding: 0 0 0 5px;
+    display: inline-block;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 89%;
+}

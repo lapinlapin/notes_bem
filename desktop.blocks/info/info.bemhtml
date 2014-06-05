@@ -1,0 +1,5 @@
+block('info')(
+    tag()('ul'),
+    js()(true)
+)
+      
